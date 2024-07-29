@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Helvetica';
+    background-color: #f0f2f5;
+}
+
+.container {
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.padding {
+    padding: 4rem;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.hero-section {
+    width: 100%;
+    padding-left: 20%;
+    height: fit-content;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.hero-section h1 {
+    color: #0866ff;
+}
+
+.hero-section h3 {
+    font-weight: 100;
+}
+
+.login-section {
+    width: 60%;
+    height: 50%;
+    padding: 1rem;
+    margin: 4rem 2rem 0rem 2rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.login-section__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-section__form .input-box {
+    width: 100%;
+    height: 50px;
+    margin: 5px;
+}
+
+.input-box input {
+    width: 100%;
+    padding-left: 15px;
+    height: 100%;
+    border: 2px solid rgb(231, 231, 231);
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.input-box input:focus {
+    border-color: #0866ff;
+    outline: none;
+    caret-color: #0866ff;
+}
+
+.login-section__form .login-btn {
+    width: 100%;
+    margin-top: 15px;
+    height: 50px;
+    background: #0866ff;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    color: white;
+    font-weight: 600;
+}
+
+.login-section__form .forgot {
+    margin: 15px;
+    color: #0866ff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.login-section__form .forgot:hover {
+    text-decoration: underline;
+}
+
+.line-seperator {
+    width: 100%;
+    border: 1px solid rgb(232, 232, 232);
+}
+
+.login-section__form .btn {
+    width: 50%;
+    height: 50px;
+    margin: 20px;
+    background: #42b72a;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+}
+
+.login-section__form .btn:hover {
+    background: #3ba225;
+}
+
+.bottom-text {
+    margin-top: 2rem;
+    font-size: small;
+}
+
+.bottom-text a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bottom-text a:hover {
+    text-decoration: underline;
+}
